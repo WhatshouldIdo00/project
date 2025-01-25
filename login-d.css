@@ -9,15 +9,14 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("premium_photo-1681843661864-3f46bfb1a4fb.avif") no-repeat; 
+    background: url("czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xOS1jYXJkLTA1LWJsZW5kaW5nc3BhY2UuanBn.webp") no-repeat; 
     background-size: cover;
 }
 .wrapper{
     width: 420px;
     background: transparent;
     color: #fff;
-    border: 2px solid rgba(225,225,225,0.2);
-    backdrop-filter: blur(10px);
+    border: 2px solid white;
     box-shadow: 0,0,10px rgba(0,0,0,.2);
     border-radius: 20px;
     padding: 40px 40px;
@@ -25,7 +24,7 @@ body{
 .wrapper h1{
     font-size: 36px;
     text-align: center;
-    color: #000;
+    color: white;
 }
 .wrapper .input{
     position: relative;
@@ -42,11 +41,11 @@ body{
     border: 1px solid #fff;
     outline: none;
     border-radius: 40px;   
-    color: #000f; 
+    color: white; 
     padding:20px 45px 20px 20px;
 }
 .input input::placeholder{
-    color: #000;
+    color: white;
     font-size: 15px;
 }
 .input i{

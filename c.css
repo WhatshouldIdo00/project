@@ -4,8 +4,12 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
-    background-color: black;
+    
     border: 1px white;
+}
+body{
+    background: url('czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0xOS1jYXJkLTA1LWJsZW5kaW5nc3BhY2UuanBn.webp');
+    background-size: cover;
 }
 .nav1{
     display: flex;
@@ -14,6 +18,7 @@
     background: transparent;
     border-bottom: 1px solid white;
     padding:18px 60px;
+    
 }
 .nav1 ul{
     display: flex;
@@ -117,5 +122,33 @@ footer{
     margin: 2px;
     text-decoration: none;
     font-size: 20px;
+}
+.main-box{
+    width: 100%;
+    margin-top: 30px;
+    height: 200px;
+    background: transparent;
+   
+}
+.main-box h2{
+    text-decoration: underline;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+.main-box .box{
+    display: flex;
+    align-items: center;
+    padding-left: 45%;
+}
+.main-box .box1{
+   display: flex;
+   padding-bottom: 30px;
+   justify-content: center;
+}
+.box1 p{
+    font-weight: bolder;
+    padding-left: 10px;
+    color: white;
 }
 
